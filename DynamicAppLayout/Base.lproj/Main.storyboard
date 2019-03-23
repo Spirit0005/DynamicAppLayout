@@ -60,55 +60,49 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="6Sg-gU-Gi2">
-                                <rect key="frame" x="32.5" y="348" width="310" height="140"/>
+                                <rect key="frame" x="40" y="348" width="295" height="132.5"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Data Image" translatesAutoresizingMaskIntoConstraints="NO" id="RiP-dB-usL">
-                                        <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="132.5" height="132.5"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="140" id="Lyt-8i-l4A"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="160" id="Lyt-8i-l4A"/>
                                             <constraint firstAttribute="width" secondItem="RiP-dB-usL" secondAttribute="height" multiplier="1:1" id="TK2-k9-TXJ"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Videos Image" translatesAutoresizingMaskIntoConstraints="NO" id="LgB-rs-g8e">
-                                        <rect key="frame" x="170" y="0.0" width="140" height="140"/>
+                                        <rect key="frame" x="162.5" y="0.0" width="132.5" height="132.5"/>
                                     </imageView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="140" id="Xfe-Xe-nU4"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="140" id="oZI-Wi-6j6"/>
-                                </constraints>
                             </stackView>
                             <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="qEI-bJ-JYf">
-                                <rect key="frame" x="32.5" y="508" width="310" height="140"/>
+                                <rect key="frame" x="40" y="500.5" width="295" height="132.5"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Data Image" translatesAutoresizingMaskIntoConstraints="NO" id="UiB-lD-XEs">
-                                        <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="132.5" height="132.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="UiB-lD-XEs" secondAttribute="height" multiplier="1:1" id="RqU-CF-ebq"/>
-                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="140" id="kbG-YU-CFl"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="160" id="kbG-YU-CFl"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Videos Image" translatesAutoresizingMaskIntoConstraints="NO" id="gU1-bu-WVb">
-                                        <rect key="frame" x="170" y="0.0" width="140" height="140"/>
+                                        <rect key="frame" x="162.5" y="0.0" width="132.5" height="132.5"/>
                                     </imageView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="140" id="kzY-BM-y9c"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="140" id="qjh-dH-n5v"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Sg-gU-Gi2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="6iL-4c-qyG"/>
                             <constraint firstItem="LoA-dS-D4w" firstAttribute="leading" secondItem="Qdh-Qv-4r1" secondAttribute="trailing" constant="10" id="6lx-T2-eP7"/>
-                            <constraint firstItem="6Sg-gU-Gi2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CJd-tQ-iRg"/>
                             <constraint firstItem="Qdh-Qv-4r1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="IN9-cp-XfB"/>
                             <constraint firstItem="Qdh-Qv-4r1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="Nvs-Ig-Olr"/>
                             <constraint firstItem="LoA-dS-D4w" firstAttribute="centerY" secondItem="Qdh-Qv-4r1" secondAttribute="centerY" constant="20" id="Nxz-Mn-POd"/>
                             <constraint firstItem="6Sg-gU-Gi2" firstAttribute="top" secondItem="kfJ-Fn-Ft7" secondAttribute="bottom" constant="35" id="QNh-AI-yZJ"/>
-                            <constraint firstItem="qEI-bJ-JYf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SX1-gq-eKa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qEI-bJ-JYf" secondAttribute="trailing" constant="40" id="TbJ-7E-dQl"/>
                             <constraint firstItem="kfJ-Fn-Ft7" firstAttribute="top" secondItem="Qdh-Qv-4r1" secondAttribute="bottom" constant="25" id="Uj3-Hh-m67"/>
+                            <constraint firstItem="qEI-bJ-JYf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Vet-lh-5QK"/>
                             <constraint firstItem="ojo-um-QQ9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Vft-KB-OwT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Sg-gU-Gi2" secondAttribute="trailing" constant="40" id="Vmq-Sy-DNG"/>
                             <constraint firstItem="kfJ-Fn-Ft7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eKF-J0-nxZ"/>
                             <constraint firstItem="ojo-um-QQ9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fcn-ab-CiY"/>
                             <constraint firstItem="ojo-um-QQ9" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="oJ3-Gd-fWC"/>
